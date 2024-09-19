@@ -4,10 +4,10 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.util.concurrent.CompletableFuture;
 
-public class HttpClientWrapper {
+public class HttpClientService {
     private HttpClient client;
 
-    public HttpClientWrapper() {
+    public HttpClientService() {
         this.client = HttpClient.newHttpClient();
     }
 
